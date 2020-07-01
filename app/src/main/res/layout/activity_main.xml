@@ -45,30 +45,12 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/btnNEG"
+                android:id="@+id/btnDEL"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#2196F3"
-                android:text="+/-"
-                android:textSize="25sp" />
-
-            <Button
-                android:id="@+id/btnPER"
-                android:layout_width="wrap_content"
-                android:layout_height="90dp"
-                android:layout_weight="1"
-                android:backgroundTint="#2196F3"
-                android:text="%"
-                android:textSize="25sp" />
-
-            <Button
-                android:id="@+id/btnDIV"
-                android:layout_width="wrap_content"
-                android:layout_height="90dp"
-                android:layout_weight="1"
-                android:backgroundTint="#2196F3"
-                android:text="÷"
+                android:text="DEL"
                 android:textSize="25sp" />
 
         </LinearLayout>
@@ -106,13 +88,14 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/btnMUL"
+                android:id="@+id/btnDIV"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#2196F3"
-                android:text="×"
+                android:text="÷"
                 android:textSize="25sp" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -148,13 +131,14 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/btnSUB"
+                android:id="@+id/btnMUL"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#2196F3"
-                android:text="-"
+                android:text="×"
                 android:textSize="25sp" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -190,13 +174,14 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/btnADD"
+                android:id="@+id/btnSUB"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#2196F3"
-                android:text="+"
+                android:text="-"
                 android:textSize="25sp" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -205,30 +190,12 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnDEC"
-                android:layout_width="wrap_content"
-                android:layout_height="90dp"
-                android:layout_weight="1"
-                android:backgroundTint="#64B5F6"
-                android:text="."
-                android:textSize="25sp" />
-
-            <Button
                 android:id="@+id/btn0"
-                android:layout_width="wrap_content"
+                android:layout_width="190dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#BBDEFB"
                 android:text="0"
-                android:textSize="25sp" />
-
-            <Button
-                android:id="@+id/btnDEL"
-                android:layout_width="wrap_content"
-                android:layout_height="90dp"
-                android:layout_weight="1"
-                android:backgroundTint="#64B5F6"
-                android:text="Del"
                 android:textSize="25sp" />
 
             <Button
@@ -239,6 +206,16 @@
                 android:backgroundTint="#2196F3"
                 android:text="="
                 android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnADD"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="#2196F3"
+                android:text="+"
+                android:textSize="25sp" />
+
         </LinearLayout>
     </LinearLayout>
 

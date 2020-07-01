@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
     Button btnDEC;
     Button btnDEL;
     Button btnCLR;
-    Button btnNEG;
-    Button btnPER;
     Button btnDIV;
     Button btnMUL;
     Button btnSUB;
@@ -143,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 compute();
                 action = '=';
-                tvRES.setText(tvRES.getText().toString() + String.valueOf(val2) + "=" + String.valueOf(val1));
+                tvRES.setText(String.valueOf(val1));
                 tvCTRL.setText(null);
             }
         });
@@ -203,11 +201,8 @@ public class MainActivity extends AppCompatActivity {
         btn7 = findViewById(R.id.btn7);
         btn8 = findViewById(R.id.btn8);
         btn9 = findViewById(R.id.btn9);
-        btnDEC = findViewById(R.id.btnDEC);
         btnDEL = findViewById(R.id.btnDEL);
         btnCLR = findViewById(R.id.btnCLR);
-        btnNEG = findViewById(R.id.btnNEG);
-        btnPER = findViewById(R.id.btnPER);
         btnDIV = findViewById(R.id.btnDIV);
         btnMUL = findViewById(R.id.btnMUL);
         btnSUB = findViewById(R.id.btnSUB);
