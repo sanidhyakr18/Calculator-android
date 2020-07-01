@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BBDEFB"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -191,16 +192,16 @@
 
             <Button
                 android:id="@+id/btn0"
-                android:layout_width="190dp"
+                android:layout_width="0dp"
                 android:layout_height="90dp"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:backgroundTint="#BBDEFB"
                 android:text="0"
                 android:textSize="25sp" />
 
             <Button
                 android:id="@+id/btnEQL"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#2196F3"
@@ -209,7 +210,7 @@
 
             <Button
                 android:id="@+id/btnADD"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#2196F3"
