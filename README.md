@@ -5,6 +5,8 @@ This is a simple android calculator which can perform the following tasks:-
 * Multiplication
 * Division
 
-![Screenshot_1593700540](https://user-images.githubusercontent.com/54947362/86376724-110e5880-bca5-11ea-9efd-93743446cc0a.png)
+![Screenshot_1595488191](https://user-images.githubusercontent.com/54947362/88260415-f3e80b00-cce1-11ea-9fe2-a2eb1143f212.png)
+![Screenshot_1595488195](https://user-images.githubusercontent.com/54947362/88260417-f5193800-cce1-11ea-92bf-e201a390edba.png)
+
 
 
