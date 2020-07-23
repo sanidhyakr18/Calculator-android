@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     Button btn7;
     Button btn8;
     Button btn9;
-    Button btnDEC;
     Button btnDEL;
     Button btnCLR;
     Button btnDIV;
@@ -27,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnSUB;
     Button btnADD;
     Button btnEQL;
+    Button btnDEC;
     TextView tvCTRL;
     TextView tvRES;
     double val1 = Double.NaN;
@@ -98,6 +98,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 tvCTRL.setText(tvCTRL.getText().toString() + "9");
+            }
+        });
+        btnDEC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvCTRL.setText(tvCTRL.getText().toString() + ".");
             }
         });
         btnADD.setOnClickListener(new View.OnClickListener() {
@@ -208,6 +214,7 @@ public class MainActivity extends AppCompatActivity {
         btnSUB = findViewById(R.id.btnSUB);
         btnADD = findViewById(R.id.btnADD);
         btnEQL = findViewById(R.id.btnEQL);
+        btnDEC = findViewById(R.id.btnDEC);
         tvCTRL = findViewById(R.id.tvCTRL);
         tvRES = findViewById(R.id.tvRES);
     }
